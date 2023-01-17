@@ -1,0 +1,47 @@
+{
+  "name": "olcs/olcs-frontend-deps",
+  "description": "List of front end dependencies, shared between internal and selfserve nodes",
+  "repositories": [
+    {
+      "packagist": false
+    },
+    {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/OLCS",
+      "type": "composer"
+    },
+    {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/Packagist-Proxy",
+      "type": "composer"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-intl": "*",
+    "ext-openssl": "*",
+    "doctrine/annotations": "^1.8",
+    "doctrine/doctrine-orm-module": "~0.10.0",
+    "firebase/php-jwt": "^6.0",
+    "olcs/olcs-auth": "~4.206.0",
+    "olcs/olcs-common": "~4.206.0",
+    "olcs/olcs-logging": "~4.206.0",
+    "olcs/olcs-transfer": "~4.206.0",
+    "olcs/olcs-utils": "~4.206.0",
+    "soflomo/purifier": "^1.0",
+    "symfony/filesystem": "^5",
+    "symfony/lock": "^5"
+  },
+  "config": {
+    "secure-http": false,
+    "sort-packages": true,
+    "allow-plugins": {
+      "laminas/laminas-dependency-plugin": true,
+      "elendev/composer-push": true,
+      "phpstan/extension-installer": true
+    }
+  },
+  "extra": {
+    "nexus-push": {
+      "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/olcs-frontend-deps"
+    }
+  }
+}
