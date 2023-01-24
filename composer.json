@@ -17,8 +17,7 @@
   "require": {
     "php": ">=7.4",
     "ext-intl": "*",
-    "ext-openssl": "*",
-    "doctrine/annotations": "^1.8",
+    "doctrine/annotations": "^1.14.2",
     "doctrine/doctrine-orm-module": "~0.10.0",
     "firebase/php-jwt": "^6.0",
     "olcs/olcs-auth": "~4.206.0",
