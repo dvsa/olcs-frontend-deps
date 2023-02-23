@@ -18,7 +18,7 @@
     "php": ">=7.4",
     "ext-intl": "*",
     "doctrine/annotations": "^1.14.2",
-    "doctrine/doctrine-orm-module": "~0.10.0",
+    "doctrine/doctrine-module": "^1",
     "firebase/php-jwt": "^6.0",
     "olcs/olcs-auth": "~4.206.0",
     "olcs/olcs-common": "~4.206.0",
