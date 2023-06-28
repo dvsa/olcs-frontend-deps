@@ -12,6 +12,10 @@
     {
       "url": "https://nexus.olcs.dev-dvsacloud.uk/repository/Packagist-Proxy",
       "type": "composer"
+    },
+    {
+      "type": "vcs",
+      "url": "https://repo.olcs.dev-dvsacloud.uk/olcs/olcs-common.git"
     }
   ],
   "require": {
@@ -21,7 +25,7 @@
     "doctrine/doctrine-module": "^1",
     "firebase/php-jwt": "^6.0",
     "olcs/olcs-auth": "~4.206.0",
-    "olcs/olcs-common": "~4.206.0",
+    "olcs/olcs-common": "dev-vol-3293-formserviceinitializer",
     "olcs/olcs-logging": "~4.206.0",
     "olcs/olcs-transfer": "~4.206.0",
     "olcs/olcs-utils": "~4.206.0",
