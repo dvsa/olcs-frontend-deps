@@ -1,6 +1,7 @@
 {
   "name": "olcs/olcs-frontend-deps",
   "description": "List of front end dependencies, shared between internal and selfserve nodes",
+  "minimum-stability": "dev",
   "repositories": [
     {
       "packagist": false
