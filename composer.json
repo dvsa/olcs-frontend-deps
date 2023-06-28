@@ -15,7 +15,7 @@
     },
     {
       "type": "vcs",
-      "url": "https://repo.olcs.dev-dvsacloud.uk/olcs/olcs-common.git"
+      "url": "git@repo.olcs.dev-dvsacloud.uk:olcs/olcs-common.git"
     }
   ],
   "require": {
