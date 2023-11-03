@@ -19,6 +19,7 @@
     "ext-intl": "*",
     "doctrine/annotations": "^1.14.2",
     "doctrine/doctrine-module": "^5",
+    "doctrine/persistence": "^2.1",
     "firebase/php-jwt": "^6.0",
     "olcs/olcs-auth": "dev-project/3.0",
     "olcs/olcs-common": "dev-project/3.0",
