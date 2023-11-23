@@ -29,13 +29,15 @@
     "firebase/php-jwt": "^6.0",
     "olcs/olcs-auth": "~4.206.0",
     "olcs/olcs-common": "~4.206.0",
-    "olcs/olcs-logging": "~4.206.0",
+    "olcs/olcs-logging": "^5.0.0",
     "olcs/olcs-transfer": "~4.206.0",
     "olcs/olcs-utils": "~4.206.0",
     "soflomo/purifier": "^1.0",
     "symfony/filesystem": "^5",
     "symfony/lock": "^5"
   },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "config": {
     "secure-http": false,
     "sort-packages": true,
