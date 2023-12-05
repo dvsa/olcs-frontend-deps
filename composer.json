@@ -11,6 +11,7 @@
       "only": [
         "olcs/olcs-logging",
         "olcs/olcs-utils",
+        "olcs/olcs-auth",
         "olcs/olcs-transfer"
       ]
     },
@@ -29,7 +30,7 @@
     "doctrine/annotations": "^1.14.2",
     "doctrine/doctrine-module": "^1",
     "firebase/php-jwt": "^6.0",
-    "olcs/olcs-auth": "~4.206.0",
+    "olcs/olcs-auth": "^5.0.0",
     "olcs/olcs-common": "~4.206.0",
     "olcs/olcs-logging": "^5.0.0",
     "olcs/olcs-transfer": "^5.0.0",
